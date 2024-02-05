@@ -1,0 +1,43 @@
+.content {
+    margin: 4rem 2rem 0px;
+}
+
+.contentRight:first-child, .contentRightRv:first-child {
+    margin-top: 0px;
+}
+
+.contentRight, .contentRightRv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    border-bottom: 1px solid #FF1138;
+    padding-bottom: 3rem;
+}
+
+.contentRight:last-child, .contentRightRv:last-child {
+    border: none;
+}
+
+.imageCar, .imageCar img {
+    width: 100%;
+    max-width: 50rem;
+}
+
+.imageCar img:first-child {
+    width: 80%;
+}
+
+.contentText {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.contentTextLeft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contentText p, .contentTextLeft p{
+    width: 85%;
+    text-align: justify;
+}

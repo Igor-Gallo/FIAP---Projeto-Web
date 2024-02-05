@@ -1,0 +1,8 @@
+FROM node:16
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN rm -f package-lock.json
+RUN yarn install --ignore-optional
+COPY . .
+EXPOSE 3001 3000
+CMD [ "node", "index.js" ]

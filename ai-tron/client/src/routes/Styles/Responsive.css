@@ -1,0 +1,68 @@
+@media (max-width: 980px) {
+    .Container {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .content {
+        margin: 3rem 1rem 0 !important;
+    }
+
+    .containerText{
+        justify-content: center !important;
+    }
+
+    .containerText p{
+        width: 100% !important;
+    }
+
+    .containerImage img{
+        width: 100%;
+    }
+
+    .Container .title h1{
+        font-size: 36px !important;
+    }
+
+    .contentRight{
+        flex-direction: column;
+    }
+
+    .contentRightRv {
+        flex-direction: column-reverse;
+    }
+
+    .contentText, .contentTextLeft {
+        justify-content: center !important;
+    }
+
+    .imageCar {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .allContent{
+        width: 80% !important;
+    }
+
+    .allDisc {
+        flex-direction: column;
+    }
+
+    .infoAdd {
+        margin-bottom: 2rem;
+    }
+
+    .infoAdd, .descrAdd {
+        width: 100% !important;
+    }
+    
+}
+
+
+@media (max-width: 380px) {
+    .linka{
+        margin: 0 1.5rem !important;
+    }
+}

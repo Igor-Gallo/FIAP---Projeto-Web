@@ -1,0 +1,11 @@
+# Usando a imagem do Nginx para servir a aplicação
+FROM nginx:alpine
+
+# Copiando a pasta build para o diretório do Nginx
+COPY build /usr/share/nginx/html
+
+# Expondo a porta 80
+EXPOSE 80 443 3000 3001
+
+# Comando padrão para iniciar o Nginx
+CMD ["nginx", "-g", "daemon off;"]
